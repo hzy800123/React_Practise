@@ -1,7 +1,7 @@
 import React, { useState } from 'react'
 
-function Counter() {
-  let initialCount = 10;  
+function CounterUseState() {
+  let initialCount = 10;
   const [count, setCount] = useState(initialCount)
   console.log('count = ', count)
 
@@ -15,4 +15,4 @@ function Counter() {
   )
 }
 
-export default Counter
+export default CounterUseState

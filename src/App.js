@@ -1,7 +1,8 @@
 import React from 'react';
 import logo from './logo.svg';
 import './App.css';
-import Counter from './hook/useState'
+// import CounterUseState from './hook/useState'
+import ExampleUseEffect from './hook/useEffect'
 
 function App() {
   return (
@@ -9,7 +10,8 @@ function App() {
       <header className="App-header">
         <img src={logo} className="App-logo" alt="logo" />
       </header>
-      <Counter />
+      {/* <CounterUseState /> */}
+      <ExampleUseEffect />
     </div>
   );
 }
